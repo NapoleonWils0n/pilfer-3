@@ -268,10 +268,9 @@ into the kodi userdata directory
 
 * Kodi playercorefactory.xml download links 
 
-[Linux, Freebsd - playercorefactory.xml](https://raw.githubusercontent.com/NapoleonWils0n/pilfer-3/master/playercorefactory/linux-unix/playercorefactory.xml)  
+[Linux, Freebsd - playercorefactory.xml](https://github.com/NapoleonWils0n/pilfer-3/blob/master/playercorefactory/linux-unix/playercorefactory.xml)  
 
-Open the link for your operating system and right click on the webpage and select save as to save the file  
-Then move the playercorefactory.xml file into the kodi userdata folder for your operating system listed below.  
+[Python virtual env Linux, Freebsd - playercorefactory.xml](https://github.com/NapoleonWils0n/pilfer-3/blob/master/playercorefactory/linux-unix/venv/playercorefactory.xml)  
 
 Location of kodi userdata folder
 
