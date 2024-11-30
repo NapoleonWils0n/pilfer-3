@@ -219,6 +219,29 @@ pilfer install
 ```
 pipx install git+https://github.com/NapoleonWils0n/pilfer-3.git
 ```
+### virtual env
+
+create a python virtual env
+
+if python is installed as python use the following code
+
+```
+python -m venv ~/.venv
+source ~/.venv/bin/activate
+```
+
+if python is installed as python3 use the following code
+
+```
+python3 -m venv ~/.venv
+source ~/.venv/bin/activate
+```
+
+install pilfer-3
+
+```
+pip install --use-pep517 git+https://github.com/NapoleonWils0n/pilfer-3.git
+```
 
 #### Install playercorefactory.xml file
 
