@@ -1,4 +1,4 @@
-# Pilfer
+# Pilfer-3
 
 Python command line tool to record audio and video from within Kodi or on the command line.  
 And use mpv as external player with Kodi
@@ -241,6 +241,24 @@ install pilfer-3
 
 ```
 pip install --use-pep517 git+https://github.com/NapoleonWils0n/pilfer-3.git
+```
+
+upgrade
+
+```
+pip install --use-pep517 --upgrade git+https://github.com/NapoleonWils0n/pilfer-3.git
+```
+
+you need to activate the python virtual env before you run pilfer
+
+```
+source ~/.venv/bin/activate
+```
+
+deactivate the virtual env
+
+```
+deactivate
 ```
 
 #### Install playercorefactory.xml file
