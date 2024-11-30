@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pilfer"
+description = "pilfer command line tool to record audio and video from Kodi"
+version = "3.0"
+license = {text = "GPL"}
+authors = [ { name = "NapoleonWils0n" } ]
+maintainers = [ { name = "NapoleonWils0n" } ]
+keywords = ["ffmpeg", "rtmpdump", "kodi"]
+
+[project.scripts]
+pilfer = "pilfer.pilfer:entry"
+pilferplay = "pilfer.pilferplay:entryplay"
+
+[project.entry-points."pilfer.pilfer"]
+pilfer = "pilfer.pilfer:entry"
+pilferplay = "pilfer.pilferplay:entryplay"
