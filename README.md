@@ -17,10 +17,10 @@ Script requirements:
 
 Set up instructions
 
-* [Linux](https://github.com/NapoleonWils0n/pilfer#linux-set-up)
-* [Windows](https://github.com/NapoleonWils0n/pilfer#windows-set-up)
-* [Mac](https://github.com/NapoleonWils0n/pilfer#mac-set-up)
-* [Freebsd](https://github.com/NapoleonWils0n/pilfer#freebsd-set-up)
+* [Linux](https://github.com/NapoleonWils0n/pilfer-3#linux-set-up)
+* [Windows](https://github.com/NapoleonWils0n/pilfer-3#windows-set-up)
+* [Mac](https://github.com/NapoleonWils0n/pilfer-3#mac-set-up)
+* [Freebsd](https://github.com/NapoleonWils0n/pilfer-3#freebsd-set-up)
 
 ## Recording from within Kodi
 
@@ -189,13 +189,13 @@ The quickest way to find to find the name of the pip command on linux is to type
 and then press the tab key and it will show you a list of the pip commands.
 
 ```
-pip3 install --user git+https://github.com/NapoleonWils0n/pilfer.git
+pip3 install --user git+https://github.com/NapoleonWils0n/pilfer-3.git
 ```
 
 * Upgrade scripts with pip
 
 ```
-pip3 install --upgrade --user git+https://github.com/NapoleonWils0n/pilfer.git
+pip3 install --upgrade --user git+https://github.com/NapoleonWils0n/pilfer-3.git
 ```
 
 #### pipx for ubuntu 23.04 and debian
@@ -217,7 +217,7 @@ pipx ensurepath
 pilfer install
 
 ```
-pipx install git+https://github.com/NapoleonWils0n/pilfer.git
+pipx install git+https://github.com/NapoleonWils0n/pilfer-3.git
 ```
 
 #### Install playercorefactory.xml file
@@ -227,7 +227,7 @@ into the kodi userdata directory
 
 * Kodi playercorefactory.xml download links 
 
-[Linux, Freebsd - playercorefactory.xml](https://raw.githubusercontent.com/NapoleonWils0n/pilfer/master/playercorefactory/linux-unix/playercorefactory.xml)  
+[Linux, Freebsd - playercorefactory.xml](https://raw.githubusercontent.com/NapoleonWils0n/pilfer-3/master/playercorefactory/linux-unix/playercorefactory.xml)  
 
 Open the link for your operating system and right click on the webpage and select save as to save the file  
 Then move the playercorefactory.xml file into the kodi userdata folder for your operating system listed below.  
@@ -239,7 +239,7 @@ Location of kodi userdata folder
 You can also download the playercorefactory.xml file with wget 
 
 ```
-wget https://raw.githubusercontent.com/NapoleonWils0n/pilfer/master/playercorefactory/linux-unix/playercorefactory.xml
+wget https://raw.githubusercontent.com/NapoleonWils0n/pilfer-3/master/playercorefactory/linux-unix/playercorefactory.xml
 ```
 
 And then move the playercorefactory.xml into your ~/.kodi/userdata directory  
@@ -267,8 +267,8 @@ Windows install instructions
 Download the 32bit or 64bit zip file depending on which version you are running  
 the zip file contains the playercorefactory.xml file and the pilfer folder 
 
-[32bit playercorecfactory.xml zip](https://github.com/NapoleonWils0n/pilfer/raw/master/playercorefactory/windows/32bit.zip)  
-[64bit playercorecfactory.xml zip](https://github.com/NapoleonWils0n/pilfer/raw/master/playercorefactory/windows/64bit.zip)
+[32bit playercorecfactory.xml zip](https://github.com/NapoleonWils0n/pilfer-3/raw/master/playercorefactory/windows/32bit.zip)  
+[64bit playercorecfactory.xml zip](https://github.com/NapoleonWils0n/pilfer-3/raw/master/playercorefactory/windows/64bit.zip)
 
 Move the pilfer folder to your C drive  
 The path should look lile this
@@ -391,13 +391,13 @@ C:\pilfer\system\bin
 #### Install scripts with pip
 
 ```
-pip3.6 install --user git+https://github.com/NapoleonWils0n/pilfer.git
+pip3.6 install --user git+https://github.com/NapoleonWils0n/pilfer-3.git
 ```
 
 #### Upgrade scripts with pip
 
 ```
-pip3.6 install --upgrade --user git+https://github.com/NapoleonWils0n/pilfer.git
+pip3.6 install --upgrade --user git+https://github.com/NapoleonWils0n/pilfer-3.git
 ```
 
 
@@ -501,13 +501,13 @@ Download and install python
 #### Install scripts with pip
 
 ```
-pip3.6 install --user git+https://github.com/NapoleonWils0n/pilfer.git
+pip3.6 install --user git+https://github.com/NapoleonWils0n/pilfer-3.git
 ```
 
 * Upgrade scripts with pip
 
 ```
-pip3.6 install --upgrade --user git+https://github.com/NapoleonWils0n/pilfer.git
+pip3.6 install --upgrade --user git+https://github.com/NapoleonWils0n/pilfer-3.git
 ```
 
 #### Install playercorefactory.xml file
@@ -517,8 +517,8 @@ into the kodi userdata directory
 
 * Kodi playercorefactory.xml download links 
 
-* [Mac python 3.6 - playercorefactory.xml](https://raw.githubusercontent.com/NapoleonWils0n/pilfer/master/playercorefactory/mac/python-3.6/playercorefactory.xml)  
-* [Mac python 3.7 - playercorefactory.xml](https://raw.githubusercontent.com/NapoleonWils0n/pilfer/master/playercorefactory/mac/python-3.7/playercorefactory.xml)  
+* [Mac python 3.6 - playercorefactory.xml](https://raw.githubusercontent.com/NapoleonWils0n/pilfer-3/master/playercorefactory/mac/python-3.6/playercorefactory.xml)  
+* [Mac python 3.7 - playercorefactory.xml](https://raw.githubusercontent.com/NapoleonWils0n/pilfer-3/master/playercorefactory/mac/python-3.7/playercorefactory.xml)  
 
 Open the link for your operating system and right click on the webpage and select save as to save the file  
 Then move the playercorefactory.xml file into the kodi userdata folder for your operating system listed below.  
@@ -563,13 +563,13 @@ Finally source your ~/.bashrc
 #### Install scripts with pip
 
 ```
-pip-3.6 install --user git+https://github.com/NapoleonWils0n/pilfer.git
+pip-3.6 install --user git+https://github.com/NapoleonWils0n/pilfer-3.git
 ```
 
 * Upgrade scripts with pip
 
 ```
-pip-3.6 install --upgrade --user git+https://github.com/NapoleonWils0n/pilfer.git
+pip-3.6 install --upgrade --user git+https://github.com/NapoleonWils0n/pilfer-3.git
 ```
 #### Install playercorefactory.xml file
 
@@ -578,7 +578,7 @@ into the kodi userdata directory
 
 * Kodi playercorefactory.xml download links 
 
-[Linux, Freebsd - playercorefactory.xml](https://raw.githubusercontent.com/NapoleonWils0n/pilfer/master/playercorefactory/linux-unix/playercorefactory.xml)  
+[Linux, Freebsd - playercorefactory.xml](https://raw.githubusercontent.com/NapoleonWils0n/pilfer-3/master/playercorefactory/linux-unix/playercorefactory.xml)  
 
 Open the link for your operating system and right click on the webpage and select save as to save the file  
 Then move the playercorefactory.xml file into the kodi userdata folder for your operating system listed below.  
@@ -590,7 +590,7 @@ Location of kodi userdata folder
 You can also download the playercorefactory.xml file with wget 
 
 ```
-wget https://raw.githubusercontent.com/NapoleonWils0n/pilfer/master/playercorefactory/linux-unix/playercorefactory.xml
+wget https://raw.githubusercontent.com/NapoleonWils0n/pilfer-3/master/playercorefactory/linux-unix/playercorefactory.xml
 ```
 
 And then move the playercorefactory.xml into your ~/.kodi/userdata directory  
